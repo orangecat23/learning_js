@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of JavaScript</title>
+</head>
+
+<body>
+
+<!-- displaying on the webpage only using JS -->
+<script>
+    document.write("<h1>welcome to JS</h1>");
+    document.write("<h2>This is the first JS lecture.</h2>");
+
+    console.log("see this message in the console");
+</script>
+
+
+    <!-- inline JS example  -->
+    <button onclick="alert('This is Inline JS')">Click Me Inline</button>
+    <!-- internal -->
+    <button onclick="showmsg()">Click Me Internal</button>
+
+    <!-- external -->
+<button onclick="showAlert()">Click Me External</button>
+
+
+
+
+
+
+
+
+    <!-- script tag before the body ends -->
+    <script>
+        function showmsg() {
+            alert('This is Internal JS');
+        }
+
+    </script>
+<script src="js/script.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>

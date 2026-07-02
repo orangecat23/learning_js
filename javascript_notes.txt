@@ -1,0 +1,40 @@
+1-7-26
+need to 'validate' for submit button in a form
+if the entered fields are correct
+basic concept of js
+libraries of js 
+baackend- java, dot net, python have their own libraries for js 
+
+function, array 
+functionality- on click, clickable events - slider, modal
+
+13th july onwards - sql 10 am to 12 pm 
+ mock - 6th to 11th html, css, bootstrap, js  , travel - 6 jul morning to 10 july 12 am 
+ new project and portfolio site
+theme forest portfolio cv template - 
+ html interview questions, css interview questions 
+
+2-7-26
+we can write javascript in three ways just like css (inline, internal, external)
+page events on a single page - internal
+single button event - inline
+events popup validation
+In JavaScript, functions are reusable blocks of code designed to perform specific tasks, execute when invoked, and serve as the fundamental building blocks of the language. (in-built and user-defined)
+
+Q. how to include external js
+<script src="js/script.js" type="text/javascript"> </script> before </body>
+
+document.write uses only js to display on the webpage
+
+when to use console.log or console 
+eg. to check errors in case we have multiple functions
+
+variable 
+
+es6 features 
+var is legacy syntax we have let and const 
+why do we need variables - to edit at a single place instead of all
+
+Q. diff bw var, let, const
+
+
