@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VarLetConst</title>
+</head>
+
+<body>
+
+    <script>
+        //var example 
+        var fname = "Piyush"; //global scope
+        var fname = "Gaurav"; //redeclare allowed 
+        fname = "Tanaya"; //reassign allowed
+        document.write(fname + "<br>");
+
+        //let example 
+        let lname = "Chougule"; //block scope
+        // let lname = "Ogale"; //redeclare not allowed
+        lname = "Ogale"; //reassign allowed
+        document.write(lname + "<br>");
+
+        //const example
+        const cname = "Fortune Cloud Pimpri"; //block scope
+        // const cname = "Fortune Cloud Pune"; //redeclare not allowed
+        //cname = "Fortune Cloud Pune"; //reassign not allowed
+        document.write(cname + "<br>");
+    </script>
+
+</body>
+
+</html>

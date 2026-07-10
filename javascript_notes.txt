@@ -37,4 +37,44 @@ why do we need variables - to edit at a single place instead of all
 
 Q. diff bw var, let, const
 
+var let const difference: 
+print using document.write(variable_name);
+
+### var (global scope) (old)
+redeclaration is allowed in var eg. we have fname sfkn and fname kfn we get output kfn
+reassign allowed eg. var fname is declared already we can redeclare with fname 
+
+### let (block scope/function scope) (within function )
+we cannot redeclare in let eg. let lname is fskdjfh we cannot declare let lname asdfj 
+re-assign is allowed in let 
+
+global scope and block scope
+types of errors in javascript 
+
+### const - cannot change this because its constant (strict no changes)(block and globl scope)
+eg. value of pi execute
+syntax error because redeclare not allowed
+uncaught typeerror : assignment to const variable ; reassign not allowed 
+
+if the code is more and var is declared again, 
+
+string in c is a character array 
+but javascript decides the datatype on its own
+
+unary binary ternary operator diff 
+a++ is unary because single operand 
+a+b binary 
+operator question always in interview
+Q. == and === difference
+== only checks value 
+=== checks value and datatype
+
+read: conditional statements, functions, events key, array , object
+
+
+
+
+
+
+
 

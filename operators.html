@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+
+<body>
+    <script>
+        //arithmetic operators +,-,/,*,%,++,-- 
+        var a = 10;
+        var b = 13;
+        var c = a + b;
+        c++;
+        c--;
+        c++;
+        c++;
+        c++;
+        c--;
+        document.write(c);
+
+
+
+    </script>
+    <script>
+        //assignment operators =,+=,-=,*=,/=,%=
+        var x = 10;
+        var y = 5;
+        x += y;
+        document.write(x);
+
+    </script>
+    <script>
+        //comparison operators ==,===,!=,!==,<,>,<=,>=
+        var p = 25;
+        var q = "25";
+        if (p === q) {
+            document.write("its true");
+        }
+        else {
+            document.write("its false");
+        }
+
+    </script>
+    <script>
+        //logical operators &&,||,!
+        var age = 17;
+
+        if (age >= 18 && age <= 100) {
+            document.write("eligible to vote");
+        }
+        else {
+            document.write("not eligible to vote");
+        }
+
+        var day = "saturday";
+        if (day === "sunday" || day === "saturday") {
+            document.write("its the weekend");
+        }
+        else {
+            document.write("its a weekday");
+        }
+    </script>
+    <script>
+        //ternary operator ?:
+        var myage =13;
+        let eligibility = (myage>=18)? "eligible to vote" : "not eligible to vote";
+        document.write(eligibility);
+        console.log(eligibility);
+    </script>
+
+</body>
+
+</html>
