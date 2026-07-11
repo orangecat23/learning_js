@@ -73,7 +73,10 @@ read: conditional statements, functions, events key, array , object
 
 
 
-
+10-7-2026
+DOM in html 
+scripting reacts/changes with HTML 
+changing html element using JS, event is applied
 
 
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clock_d {
+            color: coral;
+            text-shadow: 3px 3px 3px lightsteelblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Digital Clock</h3>
+    <h2 id="d_clock" class="clock_d"></h2>
+
+    <p id="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ipsa deserunt nam id molestiae, veniam
+        velit! Natus ut vitae ratione ea, sapiente voluptatibus sit cum soluta quibusdam enim architecto corporis.</p>
+    <script>
+        setTimeout(function () {
+            document.getElementById("msg").innerHTML = "Modified text after 15 seconds";
+        }, 15000);
+    </script>
+
+    <script>
+        function showTime() {
+            let now = new Date();
+            let time = now.toLocaleTimeString();
+            document.getElementById("d_clock").innerHTML = time;
+            setInterval(showTime, 1000);
+        }
+        showTime();
+    </script>
+
+</body>
+
+</html>
