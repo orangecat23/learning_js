@@ -78,6 +78,8 @@ DOM in html
 scripting reacts/changes with HTML 
 changing html element using JS, event is applied
 
+onsubmit is an event attribute
 
+css question about properties bg, text shadow values, positions in css
 
 
