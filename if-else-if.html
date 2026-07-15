@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else-if alert</title>
+</head>
+
+<body>
+    <script>
+        var per = prompt("Enter your percentage: ");
+        //entered number is in a string so we convert it to Int
+        per = parseInt(per);
+
+        if (per >= 80 && per <= 100) {
+            document.erite("Your are in Distinction");
+        } else if (per >= 60 && per < 80) {
+            document.write("You are in First Class");
+        } else if (per >= 30 && per < 60) {
+            document.write("You are in Second Class");
+        } else if (per >= 0 && per < 30) {
+            document.write("You have Failed");
+        } else {
+            document.write("Invalid input");
+        }
+
+        // do a program on temperature problem statement
+    </script>
+</body>
+
+</html>

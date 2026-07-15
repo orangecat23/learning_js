@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onresize="hello()">
+<!-- onresize , onscroll , onkeypress, oncontextmenu="return false" -->
+
+    <button onclick="hello()">Single click</button>
+    <button ondblclick="hello()">Double click</button>
+    <button contextmenu="hello()">On right click</button>
+    <button onmouseenter="hello()">Mouse Enter</button>
+    <button onmouseout="hello()">Mouse OUT</button>
+    <script>
+        function hello() {
+            alert("This is an Alert");
+        }
+    </script>
+</body>
+
+</html>

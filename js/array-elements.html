@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //array modify or delete
+        var a = ['Tan', 23, 'F', 'SDE'];
+        document.write(a + "<br>");
+        a[3] = 'BDE';
+        a[1] = 20;
+        delete a[3];
+        document.write(a + "<br> " + "<br> ");
+    </script>
+    <script>
+        //sorting and reverse
+        var a = ['Zendaya', 'Oliver', 'Amelia', 'Liam', 'Sophia', 'Ethan'];
+        document.write(a + "<br>");
+        a.sort();
+        document.write(a + "<br>");
+        a.reverse();
+        document.write(a + "<br>" + "<br> ");
+    </script>
+    <script>
+        //pop and push
+        var a = ['Zendaya', 'Oliver', 'Amelia', 'Liam', 'Sophia', 'Ethan'];
+        document.write(a + "<br>");
+        a.pop();
+        a.pop();
+        document.write(a + "<br>");
+        a.push('Lucas');
+        document.write(a + "<br>" + "<br> ");
+    </script>
+    <script>
+        //unshift and shift
+        var a = ['Zendaya', 'Oliver', 'Amelia', 'Liam', 'Sophia', 'Ethan'];
+        document.write(a + "<br>");
+        a.shift(); // deleted the starting value
+        document.write(a + "<br>");
+        a.unshift('Lucas');
+        document.write(a + "<br>" + "<br> ");
+    </script>
+    <script>
+        //concat and join
+        var a = ['Zendaya', 'Oliver', 'Amelia', 'Liam', 'Sophia', 'Ethan'];
+        var b = ['Zendaya', 'Oliver', 'Amelia', 'Liam', 'Sophia', 'Ethan'];
+
+        var c = a.concat(b);
+        document.write(c + '<br>');
+        var d = c.join('---');
+        document.write(d + '<br>' + '<br>');
+
+    </script>
+
+</body>
+
+</html>
